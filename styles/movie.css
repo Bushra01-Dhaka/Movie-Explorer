@@ -1,0 +1,199 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    text-align: center;
+    height: 600px;
+    width: 100%;
+    
+    background-image: url('movieshort.jpg');
+    background-position: center;
+    background-repeat: initial;
+}
+
+h1
+{
+    padding-bottom: 15px;
+    font-size: 40px;
+    color: black;
+    font-size: 4rem;
+}
+
+
+.box-of-header
+{
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    /* width: 50%; */
+    justify-items: center;
+    box-shadow: 10px 10px 10px gray;
+    background-image:linear-gradient(to right,rgb(224, 224, 26),rgb(241, 99, 48),rgb(250, 250, 86), rgb(238, 84, 84)) 
+}
+.box-of-header p
+{
+    color:gray;
+    font-size: 18px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+button{
+    margin: 20px 20px 30px;
+    height: 50px;
+    width:200px;
+    font-size:17px;
+    box-shadow: 5px 5px 5px orangered;
+
+}
+button:hover
+{
+    background-color: black;
+    color: white;
+
+}
+
+/* user request */
+
+.new-tranding-movies
+{
+     padding: 100px;
+}
+
+
+
+
+.request-user
+{
+   
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    
+    justify-items: center;
+    
+    font-size: 30px;
+   
+}
+
+.footer p
+{
+    text-align: center;
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.msg-box
+{
+    height:30px;
+    width:550px;
+    margin: 20px;
+    /* background-color: black; */
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 5px;
+    font-size: 17px;
+}
+
+.submit-box
+{
+    margin:10px;
+    padding: 10px;
+    background-color: black;
+    border: 2px solid black;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;
+    color: white;
+    font-size: 17px;
+}
+
+.submit-box:hover
+{
+    box-shadow: 5px 5px 5px;
+    background-color: orangered;
+    
+}
+
+.movie-explain
+{
+    margin: 50px 50px 200px;
+}
+
+.movie-poster
+{
+    margin-bottom: 100px;
+}
+
+
+
+.movie-poster img
+{
+    height: 400px;
+    width:300px;
+    /* margin-left: 10px; */
+    /* display: inline-block; */
+    float: left;
+    margin-right: 20px;
+}
+
+.movie-explain h2
+{
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.movie-explain p
+{
+    /* padding-top: 100px; */
+    margin: 30px 30px 10px;
+    border: 10px solid white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.movie-text
+{
+    height:auto;
+    width: 80%;
+}
+
+ .movie-explain a
+{
+    /* margin: 0px 10px 10px; */
+    height: 50px;
+    width:80px;
+    font-size:15px;
+    
+    border: 3px solid black;
+    padding: 5px 10px 5px;
+    margin: 20px 0px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 2px 2px 2px orangered;
+    background-color: black;
+}
+
+.movie-explain a:hover 
+{
+    background-color: white;
+    color: orangered;
+}
+
+.footer
+{
+    
+    color:white;
+    background-color: rgb(231, 113, 17);
+    background-image:linear-gradient(to right,rgb(224, 224, 26),rgb(241, 99, 48),rgb(250, 250, 86), rgb(238, 84, 84)) 
+    
+}

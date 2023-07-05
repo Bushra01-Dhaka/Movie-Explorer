@@ -1,0 +1,66 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+header
+{
+    height: 400px;
+    background-image: url('spiritedAway.webp');
+    background-position: center;
+    background-repeat:initial;
+}
+
+h1
+{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 80px;
+    color: white;
+}
+
+
+h3
+{
+    font-size: 20px;
+    padding-bottom: 15px;
+    text-decoration: overline;
+    font-size: 25px;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+}
+
+.blog
+{
+    background-color: black;
+    margin: 30px;
+    padding: 20px;
+    text-align: justify;
+    border: 10px solid black;
+    box-shadow: 10px 10px 10px hsl(0, 58%, 70%);
+    color: gray;
+
+}
+
+h3:hover
+{
+    color: hsl(0, 58%, 70%);
+}
+
+.lol
+{
+    border: 2px solid hsl(0, 58%, 70%) ;
+}
+
+
+
